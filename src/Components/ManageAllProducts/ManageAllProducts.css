@@ -1,0 +1,9 @@
+table {
+  width: 90%;
+  border: 1px solid black;
+  align-items: flex-start;
+}
+.delete-btn img {
+  width: 20px;
+  height: 20px;
+}

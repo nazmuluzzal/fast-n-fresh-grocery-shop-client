@@ -1,0 +1,10 @@
+.checkout-container {
+  height: 500px;
+  width: 50%;
+  margin: 40px 25%;
+}
+
+.checkout-btn {
+  width: 100%;
+  text-align: center;
+}

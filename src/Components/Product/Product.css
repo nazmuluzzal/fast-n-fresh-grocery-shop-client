@@ -1,0 +1,13 @@
+.each-product-card {
+  margin: 16px;
+  padding: 16px;
+  height: 320px;
+  width: 280px;
+  border-radius: 16px;
+  background-color: white;
+}
+.each-product-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+}

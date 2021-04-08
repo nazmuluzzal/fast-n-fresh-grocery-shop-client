@@ -1,0 +1,11 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #252a34;
+  font-family: "Montserrat", sans-serif;
+  /* #0e0a2b, #252a34,  #323232 */
+}

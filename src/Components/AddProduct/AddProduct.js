@@ -14,7 +14,7 @@ const AddProduct = () => {
       quantity: data.quantity,
       price: data.price,
     };
-    const url = `http://localhost:5000/addProducts`;
+    const url = `https://serene-wave-50060.herokuapp.com/addProducts`;
     console.log(productData);
     fetch(url, {
       method: "POST",

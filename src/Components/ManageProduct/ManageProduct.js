@@ -5,7 +5,7 @@ import SideNavBar from "../SideNavBar/SideNavBar";
 const ManageProduct = () => {
   const [products, setProducts] = useState([]);
   const loadProducts = () => {
-    fetch("http://localhost:5000/products")
+    fetch("https://serene-wave-50060.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);

@@ -15,7 +15,7 @@ const Checkout = () => {
   let { id } = useParams();
   const [product, setProduct] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/product/${id}`)
+    fetch(`https://serene-wave-50060.herokuapp.com/product/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setProduct(data);
@@ -38,7 +38,7 @@ const Checkout = () => {
       imageURL,
       ...selectedDate,
     };
-    fetch("http://localhost:5000/addOrders", {
+    fetch("https://serene-wave-50060.herokuapp.com/addOrders", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newOrders),
